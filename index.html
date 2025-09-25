@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pavithra P | BCA Fresher Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+      color: #222;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px #0002;
+      padding: 40px 36px 32px 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #e0eafc;
+      padding-bottom: 18px;
+    }
+    .profile-pic {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      color: #2a4d69;
+      font-weight: bold;
+      box-shadow: 0 2px 8px #0001;
+      margin-right: 24px;
+    }
+    .main-info {
+      flex: 1;
+    }
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 2.3rem;
+      color: #2a4d69;
+      letter-spacing: 1px;
+    }
+    .role {
+      font-size: 1.1rem;
+      color: #4f8a8b;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .contact {
+      margin-top: 8px;
+    }
+    .contact a {
+      color: #2a4d69;
+      text-decoration: none;
+      margin-right: 18px;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .contact a:hover {
+      color: #4f8a8b;
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 36px;
+    }
+    h2 {
+      color: #2a4d69;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+      border-left: 5px solid #4f8a8b;
+      padding-left: 10px;
+      letter-spacing: 0.5px;
+    }
+    ul, .skills-list, .cert-list {
+      padding-left: 22px;
+      margin: 0;
+    }
+    .skills-list, .cert-list {
+      columns: 2;
+      column-gap: 40px;
+    }
+    .project {
+      background: linear-gradient(120deg, #f1f6fa 60%, #e0eafc 100%);
+      border-radius: 10px;
+      padding: 16px 22px;
+      margin-bottom: 14px;
+      box-shadow: 0 2px 8px #0001;
+      border-left: 5px solid #4f8a8b;
+    }
+    .lang-list {
+      display: flex;
+      gap: 24px;
+      font-weight: 500;
+      font-size: 1.05rem;
+      color: #4f8a8b;
+    }
+    .timeline {
+      border-left: 3px solid #4f8a8b;
+      margin-left: 10px;
+      padding-left: 18px;
+    }
+    .timeline-item {
+      margin-bottom: 18px;
+      position: relative;
+    }
+    .timeline-item:before {
+      content: '';
+      position: absolute;
+      left: -25px;
+      top: 4px;
+      width: 12px;
+      height: 12px;
+      background: #4f8a8b;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 2px #4f8a8b44;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 12px; }
+      .header { flex-direction: column; align-items: flex-start; }
+      .profile-pic { margin-bottom: 12px; margin-right: 0; }
+      .skills-list, .cert-list { columns: 1; }
+      .lang-list { flex-direction: column; gap: 5px; }
+    }
+    /* Decorative background shapes */
+    .bg-shape {
+      position: absolute;
+      z-index: 0;
+      opacity: 0.13;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .bg1 { width: 300px; height: 300px; background: #a1c4fd; top: -80px; left: -80px; }
+    .bg2 { width: 200px; height: 200px; background: #4f8a8b; bottom: -60px; right: -60px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bg-shape bg1"></div>
+    <div class="bg-shape bg2"></div>
+    <div class="header">
+      <div class="profile-pic">PP</div>
+      <div class="main-info">
+        <h1>Pavithra P</h1>
+        <div class="role">Aspiring Software Developer</div>
+        <div class="contact">
+          <a href="mailto:pavithra.p2303@gmail.com">pavithra.p2303@gmail.com</a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Profile Summary</h2>
+      <p>
+        Motivated and detail-oriented BCA final year student with a strong foundation in computer applications, programming, and problem-solving. Skilled in Java, Python, C, SQL, and web technologies (HTML, CSS, JavaScript) with hands-on academic projects and coursework experience. Quick learner with the ability to adapt to new tools and technologies.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <b>Bachelor of Computer Application</b>, Dr. MGR Janaki College of Arts and Science for Women<br>
+          <span>CGPA: 8.78 (2023 – Present)</span>
+        </div>
+        <div class="timeline-item">
+          <b>Class 12</b>, Our Lady’s Higher Secondary School<br>
+          <span>Percentage: 93.11% (2022 – 2023)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><b>Programming:</b> C, C++, Java, Python</li>
+        <li><b>Database:</b> SQL, MySQL</li>
+        <li><b>Web:</b> HTML, CSS, JavaScript</li>
+        <li><b>Tools:</b> Git/GitHub, VS Code</li>
+        <li><b>Soft Skills:</b> Communication, Teamwork, Adaptability, Time Management</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>Python for Beginners: Mastering the Essentials - Scaler Academy</li>
+        <li>Foundation Course of Python – Infosys Springboard</li>
+        <li>Front End Web Development & Cloud – IBM Skills Build</li>
+        <li>Generative AI with IBM Cloud – IBM Skills Build</li>
+        <li>MongoDB Basics for Students – MongoDB University</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <b>EduTutor AI – AI-Powered Personalized Education Platform</b>
+        <ul>
+          <li>Developed an AI-based learning platform with dynamic quiz generation, student evaluation, and real-time feedback.</li>
+          <li>Implemented using FastAPI (backend) and Streamlit (frontend) with IBM Watsonx & Granite models.</li>
+          <li>Integrated Google Classroom and built an analytics dashboard for educators to track student performance.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <div class="lang-list">
+        <span>Tamil</span>
+        <span>English</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
